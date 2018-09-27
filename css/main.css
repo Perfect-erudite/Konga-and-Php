@@ -1,0 +1,144 @@
+/* Main content section of the page */
+
+.page-content{
+    width:100%;
+    margin-top:13px;
+}
+
+/* The content setion property */
+.content-container{
+    margin-left:12.7%;
+    margin-right:14.0%;
+    height:90%;
+    /* border:3px solid green; */
+
+}
+
+/* First Row */
+.inside-container{
+    border:1px solid purple;
+    width:100%;
+    height:100%;
+    overflow:auto;
+}
+
+/* Border for the large sliding images */
+.img-border{
+    /* border:1px solid blue; */
+    width:78%;
+    height:37%;
+    float:left;
+}
+
+/* Large image property */
+.img-border img{
+    width:100%;
+}
+
+
+/* Small image fixed images */
+.side-border{
+    /* border:1px solid red; */
+    width:19.9%;
+    margin-right:3px;
+    float:right;
+}
+
+/* Small image property */
+.side-border img{
+    width:99%;
+    float:right;
+    padding-bottom:6px;
+}
+
+/* Second Row */
+.horizontal-deal{
+    margin-top:11px;
+    border:1px solid red;
+    width:100%;
+    height:50%;
+    /* overflow:auto; */
+}
+
+/* left deal card image  */
+.leftdeal{
+    float:left
+}
+/*This is a class that contains all the product and deal cards*/
+.dealCards{
+    margin-left:16.5%;
+    border:2px solid purple;
+    overflow:auto;
+}
+.first_card{ /*The first product card*/
+    width:30%;
+    height:30%;
+    border:1px solid brown;
+}
+
+.col-1{  /*The column containing percentage and image*/
+    float:left;
+    width:20%;
+    border:1px solid green;
+}
+
+.col-2{   /*The column containing sentence, button and timer*/
+    float:right;
+    border:1px solid purple;
+}
+
+
+.per_and_img{
+    width:20%;
+}
+.percentage{
+    /* color:black; */
+    /* font-size:15px; */
+    /* background-color: red; */
+    /* width: 200px; */
+    /* position: relative; */
+    /* text-align:center;
+    color:white;*/
+    width: 0;
+	height: 0;
+	border-top: 55px solid red;
+    border-right: 50px solid transparent;
+    box-shadow: 0 1px 1px 0px rgb(151, 148, 148);
+    float:left;
+}
+
+
+.percentage p, span{
+    color:black;
+    font-size:13px;
+    /* display:inline; */
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    position: absolute;
+    text-align:center;
+    display:block;
+    left:5px;
+    transform:rotate(-45deg);
+}
+
+.product_image img{
+    width:120px;
+}
+
+.writeup{
+
+}
+
+.dealButton button{
+    border-radius:2px;
+    background-color:yellow;
+}
+
+/* .percentage:before{
+    content:"";
+    position:absolute;
+    top:0;
+    width: 0;
+	height: 0;
+	border-top: 55px solid red;
+	border-right: 50px solid transparent;
+} */

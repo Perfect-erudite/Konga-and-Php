@@ -1,0 +1,55 @@
+.bckgd{
+    background-image: url("");
+   
+   
+}
+.topic{
+    /* text-align:center; */
+    margin-top:0%;
+    color:blue;
+    /* text-transform: uppercase; */
+    font-size:30px;
+}
+
+.body_part{
+    width:30%;
+    margin-top:0px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(59, 59, 63);
+    /* text-align:center; */
+    font-size: 19px;
+    /* font-style:italic; */
+    /* text-decoration: line-through; */
+    text-indent: 10px;
+    font-weight: normal;
+
+}
+
+.post_topic{
+    text-align:center;
+    color:blue;
+    font-size:30px;
+}
+
+.post_body_part{
+    margin-left:25%;
+    width:50%;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(59, 59, 63);
+    font-size: 23px; 
+    font-style:italic;
+    text-align: center;
+       
+}
+.read_property{
+    text-align:center;
+    font-size:15px;
+    color:red;
+    text-decoration: none;
+    /* margin-bottom:5px; */
+}
+
+.del_btn{
+    /* float:right; */
+    background-color: black;
+}
